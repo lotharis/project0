@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+/* index.html & images-search.html */
+.top-bar {
+    text-align: right;
+    font-size: 16px;
+}
+
+a {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.logo-img {
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px auto;
+}
+
+.searchbar {
+    display: block;
+    width: 500px;
+    margin: 0 auto 0 auto;
+    line-height: 24px;
+    padding: 10px 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.searchbar:hover, .searchbar:active {
+    box-shadow: 0 0 6px 2px #d8d8d8;
+}
+
+*:focus {
+    outline: none;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 30px 4px 0 4px;
+    background: #f8f8f8;
+    color: #2c2c2c;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 1px 1px #d8d8d8;
+}
+
+/* advanced-search.html */
+#as-wrapper {
+    margin-top: 65px;
+}
+
+#as-bar {
+    color: rgb(209, 29, 29);
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+hr {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    box-shadow: 0 0 0.3px 0.35px rgb(179, 179, 179);
+}
+
+.as-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.as-wrapper span {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    width: 170px;
+}
+
+.as-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.input {
+    display: inline-block;
+    width: 580px;
+    height: 24px;
+    border: 1px solid #d9d9d9;
+}
+
+.input:focus {
+    border: 1px solid rgb(91, 162, 255);
+    box-shadow: 0px 1px 1px rgb(118, 176, 252) inset;
+}
+
+#as-btn {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    border-radius: 2px;
+    border: 1px solid rgb(43, 146, 230);
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(43, 146, 230);
+    color: white;
+    padding: 8px 12px;
+}
+
+#as-btn:hover {
+    border: 1px solid rgb(19, 125, 212);
+    background-color: rgb(9, 129, 228);
+}
